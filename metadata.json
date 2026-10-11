@@ -1,0 +1,6 @@
+{
+  "name": "신채원 이력서 & 포트폴리오",
+  "description": "단국대학교 도시계획·부동산학부 신채원의 인터랙티브 이력서 및 포트폴리오 웹 애플리케이션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

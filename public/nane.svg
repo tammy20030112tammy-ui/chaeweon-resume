@@ -1,0 +1,27 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 240' width='100%' height='100%' fill='none'>
+  <defs>
+    <linearGradient id='avatarBg' x1='0%' y1='0%' x2='0%' y2='100%'>
+      <stop offset='0%' stop-color='#f8fafc' />
+      <stop offset='100%' stop-color='#e2e8f0' />
+    </linearGradient>
+    <linearGradient id='hairGrad' x1='0%' y1='0%' x2='0%' y2='100%'>
+      <stop offset='0%' stop-color='#334155' />
+      <stop offset='100%' stop-color='#1e293b' />
+    </linearGradient>
+    <linearGradient id='suitGrad' x1='0%' y1='0%' x2='0%' y2='100%'>
+      <stop offset='0%' stop-color='#1e293b' />
+      <stop offset='100%' stop-color='#0f172a' />
+    </linearGradient>
+  </defs>
+  <rect width='200' height='240' fill='url(#avatarBg)' />
+  <path d='M60 110 C60 55 140 55 140 110 C140 150 135 175 130 185 C125 145 125 120 125 110 C125 75 75 75 75 110 C75 120 75 145 70 185 C65 175 60 150 60 110 Z' fill='url(#hairGrad)' />
+  <rect x='92' y='130' width='16' height='24' rx='4' fill='#fed7aa' />
+  <path d='M92 144 Q100 150 108 144' stroke='#fdba74' stroke-width='1.5' fill='none' />
+  <ellipse cx='100' cy='98' rx='30' ry='36' fill='#fed7aa' />
+  <path d='M68 95 C72 65 128 65 132 95 C125 78 112 74 100 80 C88 74 75 78 68 95 Z' fill='url(#hairGrad)' />
+  <path d='M70 95 C69 115 72 135 76 150 C79 135 77 115 78 100 Z' fill='url(#hairGrad)' />
+  <path d='M130 95 C131 115 128 135 124 150 C121 135 123 115 122 100 Z' fill='url(#hairGrad)' />
+  <path d='M35 240 L45 175 C52 162 70 154 90 152 L96 178 L104 178 L110 152 C130 154 148 162 155 175 L165 240 Z' fill='url(#suitGrad)' />
+  <path d='M85 152 L100 178 L115 152 L108 152 L100 166 L92 152 Z' fill='#ffffff' />
+  <path d='M76 160 L96 205 L100 240 L104 205 L124 160' stroke='#475569' stroke-width='1.5' fill='none' />
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <!-- Background color -->
+  </defs>
+  <!-- Background -->
+  <rect width="1000" height="1000" fill="#91a1d0" />
+
+  <!-- Four-pointed sparkle star in bottom right corner -->
+  <g transform="translate(880, 880)">
+    <path d="M 0 -36 Q 0 0 -36 0 Q 0 0 0 36 Q 0 0 36 0 Q 0 0 0 -36 Z" fill="#d2dcf5" opacity="0.95" />
+  </g>
+
+  <!-- Avatar Group in #5e71ad -->
+  <g fill="#5e71ad">
+    <!-- Hair Bun / Chignon on the right -->
+    <ellipse cx="595" cy="492" rx="46" ry="52" />
+
+    <!-- Head & Hair Volume -->
+    <!-- Outer hair perimeter -->
+    <path d="
+      M 500 230
+      C 375 230 350 340 355 440
+      C 360 485 390 515 422 515
+      C 408 495 392 468 392 435
+      C 392 380 435 365 485 365
+      C 548 365 595 402 602 445
+      C 612 425 618 395 614 365
+      C 602 285 565 230 500 230 Z
+    " />
+
+    <!-- Shoulders & Suit Jacket Body -->
+    <path d="
+      M 432 580
+      C 390 585 345 615 310 645
+      C 292 660 286 685 288 718
+      L 712 718
+      C 714 685 708 660 690 645
+      C 655 615 610 585 568 580
+      C 555 580 540 640 500 718
+      C 460 640 445 580 432 580 Z
+    " />
+  </g>
+
+  <!-- Cutout: Face, Ear, and Neck (rendered in background color) -->
+  <g fill="#91a1d0">
+    <!-- Face & Neck Silhouette -->
+    <path d="
+      M 392 435
+      C 392 470 415 502 442 522
+      C 448 540 452 560 454 580
+      L 500 718
+      L 546 580
+      C 548 560 552 540 558 522
+      C 576 508 596 480 596 448
+      C 596 420 582 410 572 422
+      C 564 432 550 436 535 436
+      C 490 436 462 380 422 384
+      C 400 388 392 410 392 435 Z
+    " />
+  </g>
+
+  <!-- Suit Lapels - Crisp outline strokes in background color #91a1d0 -->
+  <g stroke="#91a1d0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left Notch Lapel -->
+    <path d="
+      M 435 580
+      L 392 615
+      L 435 628
+      L 405 660
+      L 500 718
+    " />
+
+    <!-- Right Notch Lapel -->
+    <path d="
+      M 565 580
+      L 608 615
+      L 565 628
+      L 595 660
+      L 500 718
+    " />
+  </g>
+</svg>
